@@ -11,13 +11,16 @@ class OnBoardingPage extends StatelessWidget {
     return Scaffold(
       drawer: Drawer(
           child: Column(children: <Widget>[
-        Consumer<UserModel>(builder: (context, value, child) {
-          return UserAccountsDrawerHeader(
-            accountName: Text(value.userName ?? ""),
-            currentAccountPicture: CircleAvatar(child: Icon(Icons.person)),
-            accountEmail: Text(value.userEmail ?? ""),
-          );
-        }),
+        ListenableProvider.value(
+          value: userModel,
+          child: Consumer<UserModel>(builder: (context, value, child) {
+            return UserAccountsDrawerHeader(
+              accountName: Text(value.userName ?? ""),
+              currentAccountPicture: CircleAvatar(child: Icon(Icons.person)),
+              accountEmail: Text(value.userEmail ?? ""),
+            );
+          }),
+        ),
         ListTile(
           title: Text("Home"),
           leading: Icon(Icons.home),
