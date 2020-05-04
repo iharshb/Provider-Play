@@ -6,7 +6,7 @@
 
 | Navigation Changes -  Provider | Name List - Add - Get Provider | Employee Data - Add - Get API Provider
 |-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------
-|<img src="media/navigation.gif" height="400em" /> | <img src="media/namelist.gif" height="400em" /> | <img src="screenshots/employeelist.gif" height="400em" /> 
+|<img src="media/navigation.gif" height="400em" /> | <img src="media/namelist.gif" height="400em" /> | <img src="media/employeelist.gif" height="400em" /> 
 
 
 
