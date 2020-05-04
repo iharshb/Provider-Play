@@ -4,7 +4,7 @@
 #### This repository contains simple use of multi-provider, providers, listenable-provider, consumers and changeNotifiers.
 
 
-| Navigation Changes -  Provider | Name List - Add - Get Provider | Employee Data - Add - Get API Provider
+| Navigation Changes -  Provider | Name List - Add - Get Provider | Employee Data - Add-Get API Provider
 |-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------
 |<img src="media/navigation.gif" height="400em" /> | <img src="media/namelist.gif" height="400em" /> | <img src="media/employeelist.gif" height="400em" /> 
 
